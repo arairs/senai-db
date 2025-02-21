@@ -10,7 +10,6 @@ data_hora datetime,
 operacao varchar(10)
 );
 
-drop trigger depois_insert_pizza;
 DELIMITER $$
 create trigger depois_insert_pizza
 after insert on pizza
