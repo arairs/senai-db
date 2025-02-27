@@ -1,10 +1,25 @@
 
 use pizzaria;
+
 create table pizza(
 id_pizza int auto_increment primary key,
 sabor varchar(250),
 ingredientes varchar(250)
 );
+
+create table regioes(
+
+);
+
+create table estados (
+
+);
+
+create table municipios(
+
+);
+
+select * from pizza;
 
 alter table pizza 
 add preco dec(6,2);
